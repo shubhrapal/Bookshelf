@@ -1,7 +1,7 @@
 {
   "name": "bookshelf",
   "version": "0.1.0",
-  "homepage": "http://shubhrapal.github.io/bookshelf",
+  "homepage": "http://shubhrapal.github.io/Bookshelf",
   "private": true,
   "dependencies": {
     "@react-oauth/google": "^0.11.0",
