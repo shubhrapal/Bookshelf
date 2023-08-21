@@ -7,9 +7,6 @@ import UserPage from './UserPage';
 import Favourites from './images/Favourites';
 import BookDetails from './BookDetails';
 import Rating from './Rating';
-import Card from './Card';
-import Register from './Register';
-
 
 
 export default class App extends Component {
@@ -24,10 +21,7 @@ export default class App extends Component {
           <Route path='/favourites' element={<Favourites />} />
           <Route path='/books/:id' element={<BookDetails />} />
           <Route path='/rating' element={<Rating />} />
-          <Route path='/card' element={<Card />} />
           <Route path='/loginpage' element={<loginPage />} />
-          <Route path='/register' element={<Register/>} />
-         
         </Routes>
       </>
     )
