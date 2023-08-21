@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './Front.css';
-import Books from './Books';
+import Books from './books';
 import AboutUs from './AboutUs';
 import UserPage from './UserPage';
 import Favourites from './images/Favourites';
