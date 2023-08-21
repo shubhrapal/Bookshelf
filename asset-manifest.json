@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Bookshelf/static/css/main.3b1da686.css",
-    "main.js": "/Bookshelf/static/js/main.9d0ce5a6.js",
+    "main.js": "/Bookshelf/static/js/main.cf1dce12.js",
     "static/js/787.1f17f9c7.chunk.js": "/Bookshelf/static/js/787.1f17f9c7.chunk.js",
     "static/media/booksup2.jpeg": "/Bookshelf/static/media/booksup2.4646fefeb1db767180c0.jpeg",
     "index.html": "/Bookshelf/index.html",
     "main.3b1da686.css.map": "/Bookshelf/static/css/main.3b1da686.css.map",
-    "main.9d0ce5a6.js.map": "/Bookshelf/static/js/main.9d0ce5a6.js.map",
+    "main.cf1dce12.js.map": "/Bookshelf/static/js/main.cf1dce12.js.map",
     "787.1f17f9c7.chunk.js.map": "/Bookshelf/static/js/787.1f17f9c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b1da686.css",
-    "static/js/main.9d0ce5a6.js"
+    "static/js/main.cf1dce12.js"
   ]
 }
