@@ -1,0 +1,556 @@
+/*UserPage*/
+label.booki {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+
+  line-height: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imgbook{
+  margin-left: 180px;
+}
+
+.mybook {
+  display:inline-flex;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  text-align: center;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 13px;
+  margin-left: 1200px;
+}
+
+.mybook:hover {
+  background-color: #6b9b87;
+}
+
+.readings {
+  float: right;
+  margin-right: 50px;
+  padding-top: 150px;
+  height: 480px;
+  width: 480px;
+}
+
+div3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  color: #000000;
+  float: left;
+  padding-left: 20px;
+}
+
+div0.img {
+  float: right;
+
+}
+
+div44 {
+  float: right;
+  padding-top: 2px;
+  margin-top: 3px;
+  padding-right: 40px;
+}
+
+
+.ty {
+  padding-left: 100px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+button {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  float: left;
+  padding-left: 70px;
+
+}
+
+.pic {
+  float: left;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.touch.button {
+  size: 100px;
+}
+
+.bt {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  float: right;
+  display: inline;
+  font-size: 20px;
+  list-style-type: none;
+  margin: 2px;
+  line-height: 30px;
+  border-color: rgb(255, 255, 255);
+  padding-bottom: 0px;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+  padding-top: 10px;
+
+}
+
+.bt:hover {
+  background-color: rgb(91, 203, 164);
+  line-height: 35px;
+  padding-top: 5px;
+}
+
+div66 {
+  float: right;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.search {
+  height: 40px;
+  width: 500px;
+}
+
+.open-button {
+  color: rgb(242, 227, 227);
+  background-color: rgb(115, 169, 106);
+  font-size: 20px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.wrapper {
+  border: 1px solid #000;
+  display: inline-block;
+
+}
+
+.open-button,
+button {
+  background-color: rgb(188, 200, 187);
+  border: 0;
+  line-height: 44px;
+  float: right;
+  padding-right: 10px;
+}
+
+h4 {
+  padding-left: 300px;
+}
+
+.sign {
+
+  float: left;
+  padding-left: 110px;
+  margin-left: 160px;
+}
+
+div01 {
+  float: right;
+  padding-right: 40px;
+}
+
+/*POP-UP FOR SIGNUP*/
+
+nav {
+  background: transparent;
+  padding-top: 0;
+  line-height: 20px;
+  margin-top: 0px;
+  margin-top: 0px;
+}
+
+div001 {
+  color: #ffffff;
+  font-size: 25px;
+  float: left;
+  padding-left: 40px;
+}
+
+.p {
+  color: #000;
+}
+
+.btn-group button {
+  background-color: #04AA6D;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 20%;
+  display: block;
+  list-style: none;
+}
+
+body {
+  background-color: #b2dfcf;
+}
+
+div30 {
+  float: left;
+  padding-left: 400px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 0.5fr));
+  grid-gap: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  transition: .5s;
+  text-align: center;
+  position: relative;
+}
+
+.searchbar {
+  height: 50px;
+  width: 400px;
+  font-size: 20px;
+}
+
+.submitb {
+  height: 50px;
+  width: 100px;
+}
+
+
+
+.favourites {
+  min-height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+/* /bookspage*/
+.books {
+  margin-right: 60px;
+  float: left;
+}
+
+.book-list {
+  min-height: 80vh;
+ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.b {
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.favi {
+  float: right;
+  float: top;
+  padding-right: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: #000000;
+}
+
+.searchBooks {
+  font-family: serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+.explore {
+  float: left;
+  color: rgb(0, 0, 0);
+}
+
+/*.bookDetails {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  float: center;
+}*/
+
+/*Favourites page*/
+
+.added {
+  padding-top: 100px;
+  padding-left: 150px;
+  font-size: 30px;
+
+}
+
+
+.success {
+  color: #000000;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 50px;
+
+}
+
+
+
+.about:hover {
+  color: rgb(77, 144, 102);
+  cursor: pointer;
+}
+
+/*registration form*/
+
+.registration-form-container {
+  max-width: 400px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  margin-top: 60px;
+  margin-left: 500px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.signupb {
+  float: left;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+
+.registration-form {
+  padding-top: 30px;
+}
+
+/*login*/
+
+.login-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type='email'],
+input[type='password'] {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6b9b87;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.container-lg {
+  float: left;
+  margin-left: 100px;
+}
+
+/*books-details*/
+
+.books.title {
+  float: top;
+}
+
+/*Rating*/
+
+.rating {
+  cursor: pointer;
+}
+
+.StarRating {
+  cursor: pointer;
+}
+
+/*/books*/
+
+.titles {
+  float: center;
+  font-size: 45px;
+}
+
+.bimg {
+  float: center;
+}
+
+.description {
+  font-size: 30px;
+}
+
+.authors {
+  font-size: 30px;
+}
+
+.genres {
+  font-size: 30px;
+}
+
+.searchindex {
+  float: left;
+}
+
+
+.result {
+  cursor: pointer;
+}
+
+.search {
+  float: left;
+}
+
+/*login form*/
+
+.signn {
+  color: rgb(241, 233, 233);
+  margin-left: 50px;
+  font-size: 13px;
+  margin-top: 20px;
+  width: 65%;
+  float: left;
+}
+
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.login-form-container {
+  float: left;
+  margin-left: 90px;
+  height: 500px;
+}
+
+.log {
+  padding-top: 40px;
+  margin-top: 40px;
+}
+
+.username {
+  width: 60%;
+  float: center;
+  padding-left: 30px;
+  margin-left: 50px;
+
+}
+
+.pass {
+  width: 60%;
+  float: center;
+  margin-left: 50px;
+  margin-top: 20px;
+}
