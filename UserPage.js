@@ -11,7 +11,6 @@ export default class UserPage extends Component {
           <div>
             <ul>
               <label className='booki'>BookShelf
-             
               </label>
             </ul>
             <img className='readings' src={booksup2} alt='' />
