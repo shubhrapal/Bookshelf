@@ -15,11 +15,11 @@ export default class App extends Component {
       <>
         <Routes>
           <Route path='/Home' element={<AboutUs />} />
-          <Route path='/Bookshelf/Books' element={<Books />} />
+          <Route path='/Bookshelf/books' element={<Books />} />
           <Route path='/AboutUs' element={<AboutUs />} />
           <Route exact path='/Bookshelf' element={<UserPage />} />
-          <Route path='/Bookshelf/Books/favourites' element={<Favourites />} />
-          <Route path='/Bookshelf/Books/:id' element={<BookDetails />} />
+          <Route path='/Bookshelf/books/favourites' element={<Favourites />} />
+          <Route path='/Bookshelf/books/:id' element={<BookDetails />} />
           <Route path='/rating' element={<Rating />} />
           <Route path='/loginpage' element={<loginPage />} />
         </Routes>
