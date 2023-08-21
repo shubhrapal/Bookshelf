@@ -15,7 +15,7 @@ export default class App extends Component {
       <>
         <Routes>
           <Route path='/Home' element={<AboutUs />} />
-          <Route path='/Books' element={<Books />} />
+          <Route path='/Bookshelf/Books' element={<Books />} />
           <Route path='/AboutUs' element={<AboutUs />} />
           <Route exact path='/Bookshelf' element={<UserPage />} />
           <Route path='/favourites' element={<Favourites />} />
